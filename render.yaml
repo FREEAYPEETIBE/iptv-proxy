@@ -1,0 +1,9 @@
+
+services:
+  - type: web
+    name: iptv-proxy
+    env: node
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    plan: free
+    envVars: []
